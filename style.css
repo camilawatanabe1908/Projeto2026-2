@@ -1,6 +1,178 @@
+* {
+    font-family: Arial;
+}
 .logo{
-    width: 250px;
+    width: 200px;
+}
+body{
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #a10100;
+    padding: 13px;
+    nav {
+        float: right;
+           a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                margin-top: 30px;
+                display: inline-block;
+                padding: 15px;
+
+                a {
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    color: white;
+                }
+
+                a:hover {
+                    color: #E88213;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+}
+.banner {
+    border-top: 2px solid white;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: url("Fotos/banner.png") no-repeat center;
+    background-size: cover;
+    align-items: flex-end; 
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+.conteudo {
+    position: absolute;
+    bottom: 35px;
+    left: 50px;
+}
+
+.conteudo h1 {
+    font-size: 45px;
+    color: #E88213;
+    margin-bottom: 5px;
+}
+
+.conteudo h2 {
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+}
+.conteudo h3 {
+    font-size: 25px;
+    color: white;
+    margin-top: 0;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    display: flex;             
+    align-items: center;        
+    justify-content: center;    
+    border-radius: 5px;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    min-width: 140px;
+    padding: 10px;
+}
+
+.ifood {
+    background: #EA1D2C;
+}
+
+.aiqfome {
+    background: purple;
+}
+
+.whatsapp {
+    background: #25D366;
+    gap: 3px;
+}
+body {
+    overflow-x: hidden;
+}
+.ifoodimg{
+    width: 50px;
+}
+.aiqimg{
+    width: 100px;
+}
+.whatsimg{
+    width: 40px;
+}
+.btn:hover {
+    transform: translateY(-3px);
+}
+section{
+    background-color: #1A1A1A;
+}
+
+.diferenciais {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;             
+    padding: 60px 20px;
+    background-color: #121212; 
+}
+
+
+.item {
+    width: 300px;
+    display: flex;
+    align-items: flex-start;   
+    gap: 10px;             
+    max-width: 320px;     
+}
+
+
+.item i {
+    font-size: 55px;      
+    color: #a10100;        
+    min-width: 50px;       
+    text-align: center;
+    width: 60px;           
+}
+
+
+.item div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.item h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;             
+    line-height: 1.1;
+}
+
+.item p {
+    color: #B3B3B3;        
+    font-size: 14px;
+    margin: 4px 0 0 0;     
+    line-height: 1.3;
 }
