@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prensadão Dogueria</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html" title="Home">
+        <a href="index.php" title="Home">
             <img src="Fotos/Vermelho-removebg-preview.png" alt="Logo" title="Logo" class="logo">
         </a>
-        <nav>
+         <a href="javascript:menu()" class="header-menu">
+            <i class="fas fa-bars menu-btn"></i>
+        </a>
+        <nav id="menu">
             <ul>
                 <li>
                     <a href="">Home</a>
@@ -26,7 +30,7 @@
                     <a href="">Trabalhe Conosco</a>
                 </li>
                 <li>
-                    <a href="">Contato</a>
+                    <a href="">Sobre</a>
                 </li>
             </ul>
         </nav>
@@ -116,6 +120,12 @@
 
     </div>
 </footer>
+ <script src="Arquivo (4)/js/jquery-3.7.1.min.js"></script>
+    <script>
+        function menu() {
+            $("#menu").toggle();
+        }
+    </script>
 
 
 </body>

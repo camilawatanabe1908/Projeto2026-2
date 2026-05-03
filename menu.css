@@ -1,0 +1,171 @@
+* {
+    font-family: Arial;
+}
+
+.logo{
+    width: 200px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #a10100;
+    padding: 13px;
+    nav {
+        float: right;
+           a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                margin-top: 30px;
+                display: inline-block;
+                padding: 15px;
+
+                a {
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    color: white;
+                }
+
+                a:hover {
+                    color: #E88213;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+}
+
+nav {
+    transition: 0.3s ease;
+}
+
+.header-menu {
+    display: none;
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu i {
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color:#a10100 ;
+    padding: 40px 0;
+}
+.item2 i {
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.itensfooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+}
+.item2{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.item2 h4 {
+    margin: 0 0 5px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+
+.item2 p {
+    margin: 2px 0;
+    font-size: 15px;
+    color: white;
+}
+@media (max-width: 768px) {
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    .header-menu {
+        display: flex;
+        color: white !important;
+        text-decoration: none;
+    }
+
+    .menu-btn {
+        color: white !important;
+    }
+
+    header nav {
+        display: none;
+        width: 100%;
+    }
+
+    header nav.active {
+        display: block;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        padding: 20px 0;
+
+        background: white;
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    header nav ul li a {
+        color: #a10100 !important;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        width: 140px;
+    }
+    .itensfooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .item2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item2 i {
+        margin: 0 0 10px 0;
+    }
+
+    .banner::after,
+    .banner2::after {
+        display: none;
+    }
+}   
+
