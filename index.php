@@ -21,16 +21,16 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="">Cardápio</a>
+                    <a href="cardapio.php">Cardápio</a>
                 </li>
                 <li>
-                    <a href="">Trabalhe Conosco</a>
+                    <a href="trabalheconosco.php">Trabalhe Conosco</a>
                 </li>
                 <li>
-                    <a href="">Sobre</a>
+                    <a href="sobre.php">Sobre</a>
                 </li>
             </ul>
         </nav>
