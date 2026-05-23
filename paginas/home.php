@@ -7,10 +7,10 @@
 
                 <div class="botoes">
                     <a href="https://www.ifood.com.br/delivery/campo-mourao-pr/prensadao-delivery-centro/d9af5117-1717-4cc8-957a-55be7fac2afe?UTM_Medium=share"
-                        target="_blank" class="btn ifood"><img src="Fotos/ifood.png" alt="ifood" class="ifoodimg"></a>
+                        target="_blank" class="btni ifood"><img src="Fotos/ifood.png" alt="ifood" class="ifoodimg"></a>
                     <a href="https://aiqfome.com/PR/campo-mourao/prensadao-delivery" target="_blank"
-                        class="btn aiqfome"><img src="Fotos/aiq.png" alt="aiqfome" class="aiqimg"></a>
-                    <a href="https://wa.me/5544991688548" target="_blank" class="btn whatsapp"><img
+                        class="btni aiqfome"><img src="Fotos/aiq.png" alt="aiqfome" class="aiqimg"></a>
+                    <a href="https://wa.me/5544991688548" target="_blank" class="btni whatsapp"><img
                             src="Fotos/whats.png" alt="whatsapp" class="whatsimg">WhatsApp</a>
                 </div>
             </div>

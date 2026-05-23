@@ -41,8 +41,7 @@
     display: flex;
     gap: 10px;
 }
-
-.btn {
+.btni {
     display: flex;             
     align-items: center;        
     justify-content: center;    
@@ -80,7 +79,7 @@ body {
 .whatsimg{
     width: 40px;
 }
-.btn:hover {
+.btni:hover {
     transform: translateY(-3px);
 }
 section{
@@ -233,7 +232,7 @@ section{
         width: 100%;
     }
 
-    .btn {
+    .btni {
         width: 100%;
         max-width: 260px;
         justify-content: center;
