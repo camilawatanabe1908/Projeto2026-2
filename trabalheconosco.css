@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    background: #120804;
+    color: white;
+}
+
+.container{
+    width: 500px;
+    margin: 50px auto;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #E88213;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #E88213;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover{
+    background: white;
+}
+
+.bannertc{
+    border-top: white solid 1px;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: url("Fotos/bannertc.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre - Prensadão Dogueria</title>
     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="trabalheconosco.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -34,6 +35,25 @@
         </nav>
     </header>
     <main>
+        <div class="bannertc">
+        <div class="formulario">
+    <h1>Trabalhe Conosco</h1>
+    <p>
+        Quer fazer parte da nossa equipe?
+        Preencha o formulário abaixo e envie seu currículo.
+    </p>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="text" name="telefone" placeholder="Telefone" required><br>
+        <label><strong>Envie seu currículo:</strong></label>
+        <input type="file" name="curriculo" required>
+        <button type="submit">Enviar Currículo</button>
+    </form>
+</div>
+
+</body>
+</html>
     </main>    
        <footer>
     <div class="itensfooter">
@@ -67,6 +87,15 @@
                 <p>Dom: 18:00h às 23:00h</p>
             </div>
         </div>
+                <div class="item3">
+            <p>
+                    <?php
+                         echo date ("Y");
+                    ?>
+                    Todos os direitos reservados - Desenvolvido por Camila Watanabe
+                </p>
+        </div>
+    </div>
 
     </div>
 </footer>

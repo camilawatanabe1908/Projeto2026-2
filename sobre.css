@@ -4,32 +4,73 @@
 .banner {
     border-top: white solid 1px;
     position: relative;
-    height: 500px;
+    height: 470px;
     width: 100%;
-    background: url("Fotos/banner3.png") no-repeat center;
+    background: url("Fotos/sobre.png") no-repeat center;
     background-size: cover;
     align-items: flex-end; 
     padding-top: 30px;
     padding-left: 50px;
 }
+.mini-titulo{
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #E88213;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.btn-banner{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 32px;
+    background: #a10100;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    margin-top: 200px;
+}
+.conteudo h1,
+.conteudo h2{
+    position: relative;
+    top: 200px;
+}
+.conteudo h1{
+    font-size: 35px;
+    color: #E88213;
+    line-height: 5px;
+}
+.conteudo h2{
+    font-size: 25px;
+}
+
+.btn-banner:hover{
+    background: white;
+    color: #a10100;
+}
 
 body{
     margin:0;
     font-family: Arial;
-    background:#120b07;
+    background:#0b0b0b;
     color:white;
 }
 
 .trajetoria{
-    background: #efe2cf;
+    background: #222222;
     padding: 20px 40px;
-    color: #3b2415;
+    color: #f5f5f5;
 }
 
 .trajetoria h2{
     text-align: center;
     font-size: 34px;
     margin-bottom: 50px;
+    color: #f5f5f5;
 }
 
 .timeline{
@@ -46,7 +87,7 @@ body{
     left: 0;
     width: 100%;
     height: 2px;
-    background: #8b5a2b;
+    background: white;
 }
 
 .item{
@@ -60,7 +101,7 @@ body{
     display: block;
     font-size: 22px;
     font-weight: bold;
-    color: #8b5a2b;
+    color: #f5f5f5;
     margin-bottom: 10px;
 }
 
@@ -69,42 +110,44 @@ body{
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #8b5a2b;
+    border: 4px solid white;
     margin-bottom: 18px;
-    background: #fff;
+    background: #1a1a1a;
 }
 
 .item h3{
     font-size: 20px;
     margin-bottom: 12px;
+    color: #f5f5f5;
 }
 
 .item p{
     font-size: 17px;
     line-height: 1.5;
-    color: #5a3a24;
+    color: #bdbdbd;
 }
-.cardapio{
+.cardapio{ 
     display: grid;
     grid-template-columns: 350px repeat(3, 280px);
     gap: 20px;
-    background: #120804;
+    background: #0b0b0b;
     padding: 50px;
     align-items: center;
 }
 
 .texto-cardapio h2{
     font-size: 48px;
-    color: #d8a15d;
+    color: #ffffff;
     line-height: 1;
 }
 
 .card{
-    background: #1b0c05;
-    border: 1px solid #8f5b2e;
+    background: #222222;
+    border: 1px solid #2b2b2b;
     border-radius: 15px;
     overflow: hidden;
     text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 
 .card img{
@@ -114,34 +157,21 @@ body{
 }
 
 .card h3{
-    color: #d8a15d;
+    color: #f5f5f5;
     margin-top: 15px;
 }
 
 .card p{
     padding: 10px 20px 20px;
-    color: #ddd;
-}
-.btn-cardapio{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 14px 28px;
-    background: transparent;
-    border: 2px solid #d8a15d;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-radius: 8px;
-    transition: 0.3s ease;
+    color: #bdbdbd;
 }
 
 .btn-cardapio{
     display: inline-block;
     margin-top: 20px;
     padding: 14px 28px;
-    background: transparent;
-    border: 2px solid #d8a15d;
+    background: #a10100;
+    border: 2px solid #a10100;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -151,15 +181,17 @@ body{
 }
 
 .btn-cardapio:hover{
-    background: #d8a15d;
-    color: #120804;
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #a10100;
     transform: translateY(-3px);
 }
+
 .texto-cardapio span{
     display: flex;
     align-items: center;
     gap: 12px;
-    color: #d8a15d;
+    color: #a10100;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -172,5 +204,5 @@ body{
     content: "";
     width: 50px;
     height: 2px;
-    background: #d8a15d;
+    background: #a10100;
 }

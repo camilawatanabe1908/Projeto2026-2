@@ -35,9 +35,18 @@
         </nav>
     </header>
     <main>
-        <section>
-        <div class="banner">
-    </section>
+ <section>
+    <div class="banner">
+        <div class="conteudo">
+            <span class="mini-titulo">
+                DELIVERY • HOT-DOG ARTESANAL • SABOR DE VERDADE
+            </span>
+            <h1>DESDE 2021 SERVINDO SABOR,</h1>
+            <h2>COM QUALIDADE EM CADA DETALHE.</h2>
+            <a href="#" class="btn-banner">PEÇA AGORA</a>
+        </div>
+    </div>
+</section>
     <section class="trajetoria">
 
     <h2>Nossa Trajetória</h2>
@@ -162,6 +171,15 @@
                 <p>Dom: 18:00h às 23:00h</p>
             </div>
         </div>
+                <div class="item3">
+            <p>
+                    <?php
+                         echo date ("Y");
+                    ?>
+                    Todos os direitos reservados - Desenvolvido por Camila Watanabe
+                </p>
+        </div>
+    </div>
 
     </div>
 </footer>

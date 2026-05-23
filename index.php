@@ -117,7 +117,14 @@
                 <p>Dom: 18:00h às 23:00h</p>
             </div>
         </div>
-
+        <div class="item3">
+            <p>
+                    <?php
+                         echo date ("Y");
+                    ?>
+                    Todos os direitos reservados - Desenvolvido por Camila Watanabe
+                </p>
+        </div>
     </div>
 </footer>
  <script src="Arquivo (4)/js/jquery-3.7.1.min.js"></script>
@@ -126,7 +133,6 @@
             $("#menu").toggle();
         }
     </script>
-
 
 </body>
 

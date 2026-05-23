@@ -178,9 +178,7 @@ section{
     background: linear-gradient(
         to bottom,
         black 0%,        
-        transparent 15%,
-        transparent 85%,
-        #a10100 100%     
+        transparent 15%  
     );
 }
 .banner::after {
