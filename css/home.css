@@ -212,18 +212,15 @@ section{
 
     .conteudo h1 {
         font-size: 20px;
-        margin-right: 58px;
         color: white;
     }
 
     .conteudo h2 {
         font-size: 18px;
-        margin-right: 58px;
     }
 
     .conteudo h3 {
         font-size: 16px;
-        margin-right: 68px;
     }
 
     .botoes {
@@ -236,7 +233,6 @@ section{
         width: 100%;
         max-width: 260px;
         justify-content: center;
-        margin-right: 60px;
     }
 
     .ifoodimg{
@@ -266,15 +262,8 @@ section{
 
     .item img {
         width: 70px;
-        margin-right: 20px;
     }
-    .item h3{
-        margin-right: 28px;
-    }
-    .item p{
-        margin-right: 28px;
-    }
-
+ 
     .item div {
         align-items: center;
     }

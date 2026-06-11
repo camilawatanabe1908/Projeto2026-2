@@ -34,6 +34,7 @@ button{
     border: none;
     font-weight: bold;
     border-radius: 10px;
+    color: white;
 }
 
 button:hover{
@@ -43,7 +44,7 @@ button:hover{
 .bannertc{
     border-top: white solid 1px;
     position: relative;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url("../Fotos/bannertc.png") no-repeat center;
     background-size: cover;
@@ -51,4 +52,70 @@ button:hover{
     align-items: center;
     padding-left: 50px;
     box-sizing: border-box;
+}
+.tc-sucesso {
+    background: rgba(34, 197, 94, 0.15);
+    border-left: 4px solid #22c55e;
+    color: #22c55e;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    animation: entrar 0.4s ease forwards;
+}
+
+.tc-erro {
+    background: rgba(161, 1, 0, 0.15);
+    border-left: 4px solid #a10100;
+    color: #ff6b6b;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    animation: entrar 0.4s ease forwards;
+}
+
+@keyframes entrar {
+    from { opacity: 0; transform: translateX(-10px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+.formulario {
+    max-width: 420px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .bannertc {
+        height: auto;
+        padding: 40px 20px;
+        align-items: flex-start;
+        background: url("../Fotos/bannercel.png") no-repeat center;
+    }
+
+    .formulario {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px; 
+    }
+
+    button {
+        padding: 14px;
+        font-size: 15px;
+    }
+
+    .tc-sucesso,
+    .tc-erro {
+        font-size: 13px;
+    }
 }

@@ -32,7 +32,7 @@
 }
 footer{
     background-color:#a10100 ;
-    padding: 10px 0;
+    padding: 2px 0;
 }
 .item2 i {
     color: white;
@@ -72,66 +72,20 @@ footer{
 
 .item3{
     width: 100%;
-    text-align: center;
+    text-align: right;
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 12px;
 }
+main {
+    padding: 0;
+    margin: 0;
+}
+
 @media (max-width: 768px) {
-
-    header {
-        flex-wrap: wrap;
-    }
-
-    .header-menu {
-        display: flex;
-        color: white !important;
-        text-decoration: none;
-    }
-
-    .menu-btn {
-        color: white !important;
-    }
-
-    header nav {
-        display: none;
-        width: 100%;
-    }
-
-    header nav.active {
-        display: block;
-    }
-
-    header nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        width: 100%;
-        padding: 20px 0;
-
-        background: white;
-        text-align: center;
-    }
-
-    header nav ul li {
-        margin: 5px 0;
-    }
-
-    header nav ul li a {
-        color: #a10100 !important;
-        font-size: 18px;
-        font-weight: bold;
-        text-transform: uppercase;
-
-        display: block;
-        text-align: center;
-    }
-
-    .logo {
-        width: 140px;
-    }
     .itensfooter {
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -150,6 +104,9 @@ footer{
     .banner::after,
     .banner2::after {
         display: none;
+    }
+    .item3{
+        text-align: center;
     }
 }   
 
