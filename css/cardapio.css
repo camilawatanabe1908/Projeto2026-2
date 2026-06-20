@@ -9,7 +9,6 @@ body {
     padding: 40px 60px;
 }
 
-/* .categoria-section e .categoria-titulo removidos pois não há mais seções por categoria */
 
 .filtros {
     display: flex;

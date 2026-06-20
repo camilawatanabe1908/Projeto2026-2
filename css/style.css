@@ -5,6 +5,18 @@
     background-color: #a10100 !important;
     padding: 15px;
 }
+.navbar {
+    background-color: #a10100 !important;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 130px;
+}
 .navbar-brand img {
     height: 100px;   
     width: auto;   

@@ -177,7 +177,7 @@ while ($row = mysqli_fetch_assoc($resultado_produtos)) {
 }
 ?>
 
-<div style="width:100%; height:500px; overflow:hidden; border-top: 1px solid white;">
+<div style="width:100%; height:630px; overflow:hidden; border-top: 1px solid white;">
     <video autoplay muted loop playsinline style="width:100vw; height:100vh; object-fit:cover; display:block;">
         <source src="Fotos/video.mp4" type="video/mp4">
     </video>
