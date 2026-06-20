@@ -14,7 +14,7 @@ $page = basename($page);
     <link href="css/style.css" rel="stylesheet">
     <?php
     $cssFile = "css/{$page}.css";
-    if (file_exists($cssFile)) {
+    if (file_exists(__DIR__ . "/{$cssFile}")) {
         echo "<link rel='stylesheet' href='{$cssFile}'>";
     }
     ?>
@@ -64,10 +64,10 @@ $page = basename($page);
     <main class="p-0 m-0">
         <?php
         $arquivo = "paginas/{$page}.php";
-        if (file_exists($arquivo)) {
-            include $arquivo;
+        if (file_exists(__DIR__ . "/{$arquivo}")) {
+            include __DIR__ . "/{$arquivo}";
         } else {
-            include "paginas/erro.php";
+            include __DIR__ . "/paginas/erro.php";
         }
         ?>
     </main>
