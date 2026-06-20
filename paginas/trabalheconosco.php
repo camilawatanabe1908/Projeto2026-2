@@ -4,7 +4,8 @@
 $sucesso = isset($_GET['enviado']) && $_GET['enviado'] == '1';
 $erro = '';
 
-function validarCandidato($nome, $email, $telefone, $extensao) {
+function validarCandidato($nome, $email, $telefone, $extensao)
+{
     $extensoes_permitidas = ['pdf', 'doc', 'docx'];
 
     if (empty($nome) || empty($email) || empty($telefone)) {
@@ -93,9 +94,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php endif; ?>
 
             <form action="" method="POST" enctype="multipart/form-data">
-                <input type="text"  name="nome"     placeholder="Nome completo" required value="<?php echo isset($_POST['nome']) ? htmlspecialchars($_POST['nome']) : ''; ?>">
-                <input type="email" name="email"    placeholder="E-mail"        required value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>">
-                <input type="text"  name="telefone" placeholder="Telefone"      required value="<?php echo isset($_POST['telefone']) ? htmlspecialchars($_POST['telefone']) : ''; ?>"><br>
+                <input type="text" name="nome" placeholder="Nome completo" required value="<?php echo isset($_POST['nome']) ? htmlspecialchars($_POST['nome']) : ''; ?>">
+                <input type="email" name="email" placeholder="E-mail" required value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>">
+                <input type="text" name="telefone" placeholder="Telefone" required value="<?php echo isset($_POST['telefone']) ? htmlspecialchars($_POST['telefone']) : ''; ?>"><br>
                 <label><strong>Envie seu currículo:</strong></label>
                 <input type="file" name="curriculo" accept=".pdf,.doc,.docx" required>
                 <button type="submit">Enviar Currículo</button>

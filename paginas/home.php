@@ -15,35 +15,35 @@
                 </div>
             </div>
         </div>
-            <section class="diferenciais">
-                <div class="item">
-                    <img src="Fotos/hotd.png" alt="hotdog">
-                    <div>
-                        <h3>Ingredentes Selecionados</h3>
-                        <p>Receita artesanal com ingredientes selecionados.</p>
-                    </div>
+        <section class="diferenciais">
+            <div class="item">
+                <img src="Fotos/hotd.png" alt="hotdog">
+                <div>
+                    <h3>Ingredentes Selecionados</h3>
+                    <p>Receita artesanal com ingredientes selecionados.</p>
                 </div>
+            </div>
 
-                <div class="item">
-                    <img src="Fotos/foguete.png" alt="foguete">
-                    <div>
-                        <h3>Entrega <br>Rápida</h3>
-                        <p>Seu pedido chega quentinho, com rapidez e eficiência.</p>
-                    </div>
+            <div class="item">
+                <img src="Fotos/foguete.png" alt="foguete">
+                <div>
+                    <h3>Entrega <br>Rápida</h3>
+                    <p>Seu pedido chega quentinho, com rapidez e eficiência.</p>
                 </div>
+            </div>
 
-                <div class="item">
-                    <img src="Fotos/bisnaga.png" alt="bisnaga">
-                    <div>
-                        <h3>Molho Verde Especial</h3>
-                        <p>Um sabor único que só a nossa casa tem.</p>
-                    </div>
+            <div class="item">
+                <img src="Fotos/bisnaga.png" alt="bisnaga">
+                <div>
+                    <h3>Molho Verde Especial</h3>
+                    <p>Um sabor único que só a nossa casa tem.</p>
                 </div>
+            </div>
         </section>
     </main>
     <section class="banner2">
         <div class="conteudo2">
-                <h1>Mas aqui a história não acaba no hot…</h1>
-                <h2>o hambúrguer é o próximo capítulo.</h2>
+            <h1>Mas aqui a história não acaba no hot…</h1>
+            <h2>o hambúrguer é o próximo capítulo.</h2>
         </div>
     </section>
