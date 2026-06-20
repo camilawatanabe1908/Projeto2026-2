@@ -23,44 +23,44 @@ $page = basename($page);
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <nav class="navbar navbar-expand-lg bg-black shadow">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.php?page=home">
-            <img src="Fotos/Vermelho-removebg-preview.png" alt="Logo">
-        </a>
-        <button class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link <?php echo $page === 'home' ? 'active' : ''; ?>" href="index.php?page=home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link <?php echo $page === 'cardapio' ? 'active' : ''; ?>" href="index.php?page=cardapio">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link <?php echo $page === 'trabalheconosco' ? 'active' : ''; ?>" href="index.php?page=trabalheconosco">Trabalhe Conosco</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link <?php echo $page === 'sobre' ? 'active' : ''; ?>" href="index.php?page=sobre">Sobre</a>
-                </li>
-            </ul>
-            <div class="d-flex">
-                <a href="https://api.whatsapp.com/send/?phone=5544991688548&text&type=phone_number&app_absent=0"
-                    target="_blank"
-                    class="btn btn-primary">
-                    Faça seu pedido
-                </a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.php?page=home">
+                <img src="Fotos/Vermelho-removebg-preview.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo $page === 'home' ? 'active' : ''; ?>" href="index.php?page=home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo $page === 'cardapio' ? 'active' : ''; ?>" href="index.php?page=cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo $page === 'trabalheconosco' ? 'active' : ''; ?>" href="index.php?page=trabalheconosco">Trabalhe Conosco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo $page === 'sobre' ? 'active' : ''; ?>" href="index.php?page=sobre">Sobre</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="https://api.whatsapp.com/send/?phone=5544991688548&text&type=phone_number&app_absent=0"
+                        target="_blank"
+                        class="btn btn-primary">
+                        Faça seu pedido
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
     <main class="p-0 m-0">
         <?php
         $arquivo = "paginas/{$page}.php";
