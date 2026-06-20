@@ -4,14 +4,6 @@ body{
     color: white;
 }
 
-.container{
-    width: 500px;
-    margin: 50px auto;
-    background: #1e1e1e;
-    padding: 30px;
-    border-radius: 10px;
-}
-
 h1{
     text-align: center;
     color: #E88213;
@@ -91,31 +83,17 @@ button:hover{
 @media (max-width: 768px) {
     .bannertc {
         height: auto;
-        padding: 40px 20px;
-        align-items: flex-start;
+        padding: 60px 24px;
+        align-items: center;
+        justify-content: center;
         background: url("../Fotos/bannercel.png") no-repeat center;
+        background-size: cover;
     }
 
     .formulario {
         max-width: 100%;
-    }
-
-    h1 {
-        font-size: 22px;
-    }
-
-    input,
-    textarea {
-        font-size: 16px; 
-    }
-
-    button {
-        padding: 14px;
-        font-size: 15px;
-    }
-
-    .tc-sucesso,
-    .tc-erro {
-        font-size: 13px;
+        width: 100%;
+        padding: 24px;
+        border-radius: 12px;
     }
 }

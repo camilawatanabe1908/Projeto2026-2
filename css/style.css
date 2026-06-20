@@ -4,10 +4,6 @@
 .navbar {
     background-color: #a10100 !important;
     padding: 15px;
-}
-.navbar {
-    background-color: #a10100 !important;
-    padding: 15px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -58,6 +54,7 @@ footer{
     justify-content: space-around;
     align-items: flex-start;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .item2{
     display: flex;
@@ -77,10 +74,6 @@ footer{
     margin: 2px 0;
     font-size: 15px;
     color: white;
-}
-.itensfooter{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .item3{
@@ -118,10 +111,6 @@ main {
         margin: 0 0 10px 0;
     }
 
-    .banner::after,
-    .banner2::after {
-        display: none;
-    }
     .item3{
         text-align: center;
     }

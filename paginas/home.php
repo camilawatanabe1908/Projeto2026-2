@@ -47,3 +47,8 @@
             <h2>o hambúrguer é o próximo capítulo.</h2>
         </div>
     </section>
+    <section class="destaque-mobile">
+        <img src="Fotos/pizza.jpg" alt="Dog Pizza">
+        <img src="Fotos/maioneseverde.jpg" alt="Maionese Verde">
+        <img src="Fotos/burger.jpg" alt="Dog Burger">
+    </section>
